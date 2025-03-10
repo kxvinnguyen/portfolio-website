@@ -1,0 +1,45 @@
+SKILLS
+Languages/Frameworks: Python, Java, JavaScript, SQL, React, Node.js, Docker, Kubernetes, HTML/CSS
+Technical Skills: System Design, ETL Pipeline Development, CI/CD Cloud Services (Azure/AWS)
+
+PROFESSIONAL EXPERIENCE
+Ellipse                                                                February 2025 – Present
+Software Developer Intern                                                 New York, NY
+• Built and maintained high-performance RESTful APIs using Node.js that integrated multiple sales 
+  channels, resulting in faster inventory synchronization and improved system reliability
+• Developed data analytics pipelines with Python, SQL, and Pandas that processed over 2TB of customer
+  data monthly, providing actionable insights that increased retention rates by 10%
+• Collaborated with senior engineers to implement containerized microservices using Docker and
+  Kubernetes, reducing page load times by 50% and improving scalability
+
+Bluebonnet Data                                                        Aug 2022 – Dec 2022
+Data Science Fellow                                                      Dallas, TX
+• Architected and distributed web scraping application using Python/Selenium that extracted and processed 
+  over 100,000 data points daily, improving collection efficiency by 35%
+• Engineered machine learning models with scikit-learn and TensorFlow that achieved 92% prediction
+  accuracy, deploying models via Flask API for production use
+• Led development of a responsive promotional website using Bootstrap and Redux, following modern
+  frontend practices that increased organization visibility by 45%
+
+ShopPham                                                                Jun 2021 – Aug 2021
+Software Engineer Intern                                                 New Brunswick, NJ
+• Developed Python automation scripts that leveraged multithreading to streamline 10+ checkout
+  processes on high-traffic e-commerce platforms, reducing manual effort by 40%
+• Designed and implemented ETL pipelines for processing sensitive customer data, ensuring PCI
+  compliance while maintaining processing efficiency
+• Built a real-time monitoring dashboard using Node.js and D3.js that visualized system metrics, enabling
+  quicker identification and resolution of performance bottlenecks
+
+PROJECTS
+ASLingo                                                                Project Lead
+• Led a team of 4 developers to build a real-time sign language recognition application using TensorFlow
+  and OpenCV, achieving 98% gesture recognition accuracy
+• Implemented a custom convolutional neural network architecture that processed video input at 30fps
+  while maintaining low latency on consumer hardware
+• Designed an intuitive UI/UX that allowed users to practice for feedback on sign language gestures
+
+Worker-Node - Distributed Task Orchestration System                     Lead Developer
+• Designed and implemented a distributed task orchestration system that coordinates computational jobs
+  across multiple worker nodes with fault tolerance and horizontal scalability
+• Developed a custom scheduler algorithm that intelligently distributes workloads based on node capacity
+  and job requirements, resulting in 35% higher throughput 

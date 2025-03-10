@@ -10,7 +10,6 @@ import Footer from './components/layout/Footer';
 import Home from './components/portfolio/Home';
 import About from './components/portfolio/About';
 import Projects from './components/portfolio/Projects';
-import Contact from './components/portfolio/Contact';
 import Login from './components/auth/Login';
 import Register from './components/auth/Register';
 import Dashboard from './components/jobs/Dashboard';
@@ -26,7 +25,6 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/projects" element={<Projects />} />
-            <Route path="/contact" element={<Contact />} />
             <Route path="/login" element={<Login />} />
             <Route path="/register" element={<Register />} />
             <Route 
