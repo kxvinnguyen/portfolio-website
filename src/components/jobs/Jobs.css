@@ -1,0 +1,219 @@
+.dashboard-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.dashboard-container h1 {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.add-btn {
+  margin-bottom: 2rem;
+}
+
+.loading {
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 2rem;
+}
+
+/* Job Form Styles */
+.job-form-container {
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.job-form-container h2 {
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+}
+
+.form-actions {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+  color: #fff;
+}
+
+.btn-secondary:hover {
+  background-color: #5a6268;
+}
+
+/* Job List Styles */
+.job-list-container {
+  margin-top: 2rem;
+}
+
+.filter-container {
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.filter-select {
+  padding: 0.5rem;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  font-size: 1rem;
+}
+
+.no-applications {
+  text-align: center;
+  padding: 2rem;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+}
+
+.job-items {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+/* Job Item Styles */
+.job-item {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.job-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.job-header:hover {
+  background-color: #f8f9fa;
+}
+
+.job-title h3 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.job-title p {
+  margin: 0.25rem 0 0;
+  color: #6c757d;
+}
+
+.job-meta {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.5rem;
+}
+
+.job-status {
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.status-applied {
+  background-color: #cff4fc;
+  color: #055160;
+}
+
+.status-interviewing {
+  background-color: #fff3cd;
+  color: #664d03;
+}
+
+.status-rejected {
+  background-color: #f8d7da;
+  color: #842029;
+}
+
+.status-offered {
+  background-color: #d1e7dd;
+  color: #0f5132;
+}
+
+.status-accepted {
+  background-color: #d1e7dd;
+  color: #0f5132;
+  font-weight: bold;
+}
+
+.job-date {
+  font-size: 0.85rem;
+  color: #6c757d;
+}
+
+.job-details {
+  padding: 1rem 1.5rem 1.5rem;
+  border-top: 1px solid #eee;
+}
+
+.job-notes {
+  margin-bottom: 1.5rem;
+}
+
+.job-notes h4 {
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+}
+
+.job-notes p {
+  margin: 0;
+  white-space: pre-line;
+}
+
+.job-actions {
+  display: flex;
+  gap: 1rem;
+}
+
+.btn-edit {
+  background-color: #6c757d;
+  color: #fff;
+}
+
+.btn-edit:hover {
+  background-color: #5a6268;
+}
+
+.btn-delete {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.btn-delete:hover {
+  background-color: #bb2d3b;
+}
+
+@media (max-width: 768px) {
+  .job-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .job-meta {
+    margin-top: 1rem;
+    align-items: flex-start;
+  }
+  
+  .job-actions {
+    flex-direction: column;
+  }
+  
+  .btn {
+    width: 100%;
+  }
+} 
